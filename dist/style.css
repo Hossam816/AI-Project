@@ -120,7 +120,6 @@ body{
     .ol-lang::after{
         top: -22% !important;
         border-color: transparent transparent #000 transparent !important;
-        width: 100%;
     }
 
 }
