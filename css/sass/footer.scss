@@ -1,0 +1,37 @@
+.footer{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .icon-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+            i{
+                transition: all .25s ease;
+                cursor: pointer;
+                padding: 0px 10px;
+                color: black;
+            }
+            a:first-of-type:hover i{
+                color: rgb(209, 72, 236);
+            }
+            a:nth-child(2):hover i{
+                color: blue
+            }
+            a:last-child:hover i{
+                color: rgb(0, 174, 255);
+            }
+        }
+        .footer-text{
+            strong{
+                color: var(--main-color);
+                font-size: 25px;
+            }
+        }
+    }
+}

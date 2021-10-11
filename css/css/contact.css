@@ -1,0 +1,29 @@
+.contact {
+  background-image: url("../../img/6.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  position: relative; }
+  .contact .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 10; }
+    .contact .contact-container h2 {
+      color: #fff;
+      font-weight: bold;
+      margin: 20px 0;
+      font-size: 30px; }
+    .contact .contact-container span:nth-child(2) {
+      color: #fff;
+      letter-spacing: 2.5px; }
+    .contact .contact-container span:last-child {
+      color: #fff;
+      letter-spacing: 2.5px;
+      margin-top: 15px; }
+
+/*# sourceMappingURL=contact.css.map */

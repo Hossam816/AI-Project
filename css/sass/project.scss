@@ -1,0 +1,56 @@
+.project{
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1{
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .project-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: center;
+        .project-info{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-content: center;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            box-shadow: -2px -2px 30px rgb(87, 87, 87);
+            margin: 0px 20px;
+            padding-bottom: 10px;
+            img{
+                max-width: 100%;
+            }
+            h2{
+                letter-spacing: 2.5px;
+                font-weight: bold;
+                margin: 30px;
+            }
+            h5{
+                font-size: 15px;
+                color: #676767;
+                line-height: 1.7em;
+                margin: 20px;
+            }
+            .btn-more{
+                text-align: center;
+                width: 86%;
+                margin: 2% 8%;
+                background: none;
+                border: 1px solid rgb(23,162,184);
+                color: rgb(23,162,184);
+                border-radius: 6px;
+                padding: 15px;
+                cursor: pointer;
+                transition: all .56s ease;
+            }.btn-more:hover{
+                color: #fff;
+                background-color: rgb(23,162,184);
+            }
+        }
+    }
+}

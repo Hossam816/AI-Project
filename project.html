@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="crossorigin="anonymous">
+        <link rel="stylesheet" href="dist/css/main.css">
+        <link rel="stylesheet" href="dist/style.css">
+        <title>E-SHIRE</title>
+    </head>
+    <style>
+        .btn-up{
+            display: none;
+            position: fixed;
+            bottom: 2%;
+            right: 2%;
+            color: black;
+            background-color: var(--main-color);
+            padding: 10px;
+            transition: all .25s ease;
+            z-index: 999;
+            cursor: pointer;
+        }
+        .btn-up:hover{
+            box-shadow: -2px 5px 40px var(--main-color);
+        }
+    </style>
+    <body>
+
+        <!--start main-->
+
+        <div class="btn-up">
+            <span><i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></span>
+        </div>
+
+        <!--end main-->
+
+        <!--start header-->
+
+        <header class="main-header home">
+            <div class="nav-container">
+                <div class="brand-container">
+                    <h1>E-SHIRE</h1>
+                    <span><i class="fas fa-globe-americas fa-2x"></i></span>
+                </div>
+                <div class="menu-container brand-sh">
+                    <ul>
+                        <li data-scroll=".home"><a href="index.html">Home</a></li>
+                        <li data-scroll=".about"><a href="">About</a></li>
+                        <li data-scroll=".project"><a href="">Project</a></li>
+                        <li data-scroll=".contact"><a href="">Contact</a></li>
+                        <li><a href="" class="lang-im">EN <i class="fas
+                                    fa-globe-americas fa-2x"></i></a></li>
+                    </ul>
+                    <div class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="project-main">
+                <div class="dash-container">
+                    <ol class="ol-dash">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                    </ol>
+                </div>
+                <span class="left"><i class="fas fa-chevron-left fa-2x"></i></span>
+                <span class="right"><i class="fas fa-chevron-right fa-2x"></i></span>
+            </div>
+
+        </header>
+        <!--end header-->
+
+        <!--start footer-->
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="icon-container">
+                        <a href="https://www.instagram.com/astaids.saudi/"><i
+                                class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://www.facebook.com/ast.aids.5"><i
+                                class="fab fa-facebook fa-2x"></i></a>
+                        <a href="https://twitter.com/ast_aids"><i class="fab
+                                fa-twitter fa-2x"></i></a>
+                    </div>
+                    <div class="footer-text">
+                        Copyrights Reserved &copy;<strong>E-SHIRE </strong>2020
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--end footer-->
+
+        <script src="js/jquery.js"></script>
+        <script src="js/jqeury.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

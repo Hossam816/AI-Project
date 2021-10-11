@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: rgb(0,123,255);
+    --yellow-col: yellow;
+    --text-col: rgb(212,175,55);
+}
+body, html{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.container{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    z-index: 1;
+}
+.show{
+    display: flex !important;
+    transition: all .29s ease;
+    animation: scrolling 1.25s linear;
+}
+
+
+
+@media (max-width: 1090px) {
+    .about .about-container {
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(700px, 1fr)) !important;
+    }
+    .about-container img{
+        width: 50% !important;
+    }
+    .project .project-container{
+        flex-direction: column !important;
+        align-content: center !important;
+        justify-items: center;
+        align-items: center;
+    }
+    .project .project-info{
+        width: 70%;
+        margin-bottom: 20px !important;
+    }
+}
+@media (max-width: 992px) {
+    .menu-btn{
+        display: block !important;
+    }
+    .main-header .preve-impo{
+        display: none;
+        transition: all .25s ease;
+    }
+    .main-header ul{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0%;
+        top: 8%;
+        background-color: rgb(241, 241, 241);
+        width: 100%;
+        align-content: flex-start !important;
+        padding: 15px;
+        padding-bottom: 20px !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+    .main-header .menu-container ul {
+        flex-direction: column !important;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-header .menu-container ul li{
+        padding-bottom: 20px;
+        padding-right: 0px !important;
+    }
+    .menu-container ul li a {
+        color: black !important;
+    }
+    .brand-container{
+        display: block;
+    }
+    .lang-im{
+        position: relative;
+        left: 2%;
+        bottom: 1.5%;
+        color: black !important;
+    }
+    .lang-im::after{
+        top: 43% !important;
+        right: -28% !important;
+        border-color: #000 transparent transparent transparent !important;
+    }
+
+    .ol-lang{
+        top: 90% !important;
+        right: 89% !important;
+    }
+    .ol-lang::after{
+        top: -22% !important;
+        border-color: transparent transparent #000 transparent !important;
+        width: 100%;
+    }
+
+}
+@media (max-width: 550px) {
+    .footer-container{
+        flex-direction: column !important;
+        align-content: center;
+        text-align: center;
+    }
+}

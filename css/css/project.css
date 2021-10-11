@@ -1,0 +1,50 @@
+.project {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .project h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px; }
+  .project .project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center; }
+    .project .project-container .project-info {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-content: center;
+      text-align: center;
+      background-color: white;
+      box-shadow: -2px -2px 30px #575757;
+      margin: 0px 20px;
+      padding-bottom: 10px; }
+      .project .project-container .project-info img {
+        max-width: 100%; }
+      .project .project-container .project-info h2 {
+        letter-spacing: 2.5px;
+        font-weight: bold;
+        margin: 30px; }
+      .project .project-container .project-info h5 {
+        font-size: 15px;
+        color: #676767;
+        line-height: 1.7em;
+        margin: 20px; }
+      .project .project-container .project-info .btn-more {
+        text-align: center;
+        width: 86%;
+        margin: 2% 8%;
+        background: none;
+        border: 1px solid #17a2b8;
+        color: #17a2b8;
+        border-radius: 6px;
+        padding: 15px;
+        cursor: pointer;
+        transition: all .56s ease; }
+      .project .project-container .project-info .btn-more:hover {
+        color: #fff;
+        background-color: #17a2b8; }
+
+/*# sourceMappingURL=project.css.map */
