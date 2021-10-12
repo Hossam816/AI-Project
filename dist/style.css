@@ -41,6 +41,22 @@ body{
     animation: scrolling 1.25s linear;
 }
 
+.btn-more{
+    text-align: center;
+    width: 86%;
+    margin: 2% 8%;
+    background: none;
+    border: 1px solid rgb(23,162,184);
+    color: rgb(23,162,184);
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all .56s ease;
+}.btn-more:hover{
+    color: #fff;
+    background-color: rgb(23,162,184);
+}
+
 
 
 @media (max-width: 1090px) {
@@ -53,6 +69,10 @@ body{
     .about-container img{
         width: 50% !important;
     }
+
+    
+
+
     .project .project-container{
         flex-direction: column !important;
         align-content: center !important;
@@ -65,6 +85,13 @@ body{
     }
 }
 @media (max-width: 992px) {
+    .img-slide h1,
+    .img-slide p{
+        text-align: center;
+    }
+    .img-slide button{
+        margin: 7% 5% !important;
+    }
     .menu-btn{
         display: block !important;
     }
@@ -72,7 +99,11 @@ body{
         display: none;
         transition: all .25s ease;
     }
-    .main-header ul{
+    .project-main .img-container .dash-container{
+        display: none;
+    }
+    .main-header .menu-container ul{
+        z-index: 66;
         display: none;
         flex-direction: column;
         position: absolute;

@@ -1,12 +1,13 @@
 .about {
-  background-image: url("../../img/2.jpg");
+  background-image: url("../../img/ai-trading.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
-  min-height: 70vh; }
+  min-height: 70vh;
+  overflow: hidden; }
   .about h1 {
     text-align: center;
     color: var(--main-color);
@@ -23,11 +24,15 @@
     z-index: 10;
     position: relative; }
     .about .about-container .img-container {
-      width: 100%; }
+      width: 100%;
+      transform: translateX(-100%);
+      transition: all 1.15s ease; }
       .about .about-container .img-container img {
-        width: 100%; }
+        width: 80%; }
     .about .about-container .about-text {
-      padding-left: 15px; }
+      padding-left: 15px;
+      transform: translateY(120%);
+      transition: all 1.2s ease; }
       .about .about-container .about-text h4 {
         font-size: 25px;
         font-weight: bold;
