@@ -1,5 +1,5 @@
 $(function(){
-    "use strict"
+    "use strict";
     $(".menu-btn").on("click", function(){
         $(".menu-container ul").toggleClass("show")
     })
@@ -43,6 +43,8 @@ $(function(){
                 opacity: "1"
             })
         }
+
+        
     })
     $(".img-slide .slide-text").animate({
         opacity: "1",
@@ -74,6 +76,35 @@ $(function(){
     })
 
 })
+
+/*Start count Down*/
+
+const counterContainer = document.querySelectorAll(".stat .counter")
+
+const speed = 200;
+
+counterContainer.forEach(counter => {
+    const updateCounte = () => {
+        const target = +counter.getAttribute('data-target');
+
+        const count = +counter.innerText;
+
+        const inc = target / speed;
+
+
+        if(count < target) {
+            counter.innerText = count + inc;
+            setTimeout(updateCounte(), 2)
+        }else{
+            count.innerText = target;
+        }
+    }
+    updateCounte()
+
+})
+
+
+/*End count Down*/ 
 
 var allLinks = document.querySelectorAll(".menu-container ul li");
 

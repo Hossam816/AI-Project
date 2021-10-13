@@ -5,10 +5,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
             integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="crossorigin="anonymous">
         <link rel="stylesheet" href="dist/css/main.css">
         <link rel="stylesheet" href="dist/style.css">
+        <link rel="stylesheet" href="css/bootstrap/all.css">
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap/fontawesome.css">
+        <link rel="stylesheet" href="css/bootstrap/fontawesome.min.css">
         <link rel="shortcut icon" href="img/header/526372.jpg"
             type="image/x-icon">
         <title>E-SHIRE</title>
@@ -42,7 +48,7 @@
 
         <!--start header-->
 
-        <header class="main-header home">
+        <header class="main-header home navbar navbar-fixed-top">
             <div class="nav-container">
                 <div class="brand-container">
                     <h1>E-SHIRE</h1>
@@ -69,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <div class="img-container">
+            <!--<div class="img-container">
                 <div class="img-slide active">
                     <img src="img/header/1398323.jpg" alt="">
                     <div class="slide-text" style="opacity: 0;">
@@ -134,121 +140,267 @@
                 </div>
                 <span class="dash-container">
 
-                </span>
-            </header>
-            <!--end header-->
+                </span>-->
+        </header>
+        <div class="container-fluid">
+            <div id="myslid" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators hidden-xs">
+                    <li data-target="#myslid" data-slide-to="0" class="active"></li>
+                    <li data-target="#myslid" data-slide-to="1" class=""></li>
+                    <li data-target="#myslid" data-slide-to="2" class=""></li>
+                    <li data-target="#myslid" data-slide-to="3" class=""></li>
+                </ol>
 
-
-            <!--strat about-->
-            <section class="about">
-                <div class="overlay"></div>
-                <h1>About Us</h1>
-                <div class="container">
-                    <div class="about-container">
-                        <div class="img-container">
-                            <img src="img/shutterstock_1096541144_h1.jpg"
-                                alt="">
-                        </div>
-                        <div class="about-text">
-                            <h4>this is heading</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur
-                                adipisicing
-                                elit. Laborum a quia quo. Pariatur vero earum
-                                quos
-                                expedita harum soluta at quia voluptates hic
-                                animi
-                                sunt, vitae in tempora veniam quoquia voluptates
-                                hic
-                                animi
-                                sunt, vitae in tempora veniam quo.</p>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <!--end about-->
-
-            <!--start project-->
-
-            <section class="project">
-                <h1>Our Project</h1>
-                <div class="container">
-                    <div class="project-container">
-                        <div class="project-info">
-                            <img src="img/4.jpg" alt="">
-                            <h2>AI</h2>
-                            <h5>Welcome To Our AI Project</h5>
-                            <a href="project.html" class="btn-more">More</a>
-                        </div>
-                        <div class="project-info">
-                            <img src="img/5.jpg" alt="">
-                            <h2>STEAM</h2>
-                            <h5>Welcome To Our STEAM Project</h5>
-                            <a href="project.html" class="btn-more">More</a>
-                        </div>
-                        <div class="project-info">
-                            <img src="img/Mkgaa768x432.jpeg" alt="">
-                            <h2>STEAM</h2>
-                            <h5>Welcome To Our STEAM Project</h5>
-                            <a href="project.html" class="btn-more">More</a>
-                        </div>
-                        <div class="project-info">
-                            <img src="img/software_robots-top-526940848.jpg"
-                                alt="">
-                            <h2>STEAM</h2>
-                            <h5>Welcome To Our STEAM Project</h5>
-                            <a href="project.html" class="btn-more">More</a>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item next left">
+                        <img src="img/header/1398323.jpg"
+                            alt="...">
+                        <div class="carousel-caption hidden-xs">
+                            <h1>Hellow this is picture one</h1>
+                            <p class="lead">Lorem Ipsum is simply dummy text of
+                                the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard
+                                dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book</p>
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <!--end project-->
-
-            <!--start contact-->
-
-            <section class="contact">
-                <div class="overlay"></div>
-                <div class="contact-container">
-                    <h2>Address</h2>
-                    <span><i class="fa fa-id-card fa-1x" style="margin-right:
-                            5px;"
-                            aria-hidden="true"></i>Saudi
-                        Arabia, Al Sharqiya</span>
-                    <span><i class="fa fa-phone-square fa-1x"
-                            aria-hidden="true"></i>+966569123102</span>
-                </div>
-            </section>
-
-            <!--end contact-->
-
-
-            <!--start footer-->
-
-            <div class="footer">
-                <div class="container">
-                    <div class="footer-container">
-                        <div class="icon-container">
-                            <a href="https://www.instagram.com/astaids.saudi/"><i
-                                    class="fab fa-instagram fa-2x"></i></a>
-                            <a href="https://www.facebook.com/ast.aids.5"><i
-                                    class="fab fa-facebook fa-2x"></i></a>
-                            <a href="https://twitter.com/ast_aids"><i class="fab
-                                    fa-twitter fa-2x"></i></a>
+                    <div class="item">
+                        <img src="img/header/28.jpg"
+                            alt="...">
+                        <div class="carousel-caption hidden-xs">
+                            <h1>Hellow this is picture two</h1>
+                            <p class="lead">Lorem Ipsum is simply dummy text of
+                                the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard
+                                dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book</p>
                         </div>
-                        <div class="footer-text">
-                            Copyrights Reserved &copy;<strong>E-SHIRE </strong>2020
+                    </div>
+                    <div class="item">
+                        <img src="img/header/P4Yp9M4.jpg"
+                            alt="...">
+                        <div class="carousel-caption hidden-xs">
+                            <h1>Hellow this is picture two</h1>
+                            <p class="lead">Lorem Ipsum is simply dummy text of
+                                the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard
+                                dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book</p>
+                        </div>
+                    </div>
+
+                    <div class="item active left">
+                        <img
+                            src="img/header/526372.jpg"
+                            alt="...">
+                        <div class="carousel-caption hidden-xs">
+
+                            <h1>Hellow this is picture three</h1>
+                            <p class="lead">Lorem Ipsum is simply dummy text of
+                                the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard
+                                dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myslid" role="button"
+                    data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myslid" role="button"
+                    data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+        <!--end header-->
+
+
+        <!--strat about-->
+        <section class="about">
+            <div class="overlay"></div>
+            <h1>About Us</h1>
+            <div class="container">
+                <div class="about-container">
+                    <div class="img-container">
+                        <img
+                            src="img/shutterstock_1096541144_h1.jpg"
+                            alt="">
+                    </div>
+                    <div class="about-text">
+                        <h4>this is heading</h4>
+                        <p>Lorem ipsum dolor sit, amet
+                            consectetur
+                            adipisicing
+                            elit. Laborum a quia quo.
+                            Pariatur vero earum
+                            quos
+                            expedita harum soluta at quia
+                            voluptates hic
+                            animi
+                            sunt, vitae in tempora veniam
+                            quoquia voluptates
+                            hic
+                            animi
+                            sunt, vitae in tempora veniam
+                            quo.</p>
+                        <button type="button" class="btn
+                            btn-primary">Read
+                            More</button>
+                        <button type="button" class="btn
+                            btn-danger">Learn
+                            More</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--end about-->
+        <!--Start statistice-->
+
+        <section class="static">
+            <div class="stat">
+                <div class="container">
+                    <h1>our Sales</h1>
+                    <div class="row center-block">
+                        <div class="static-info col-lg-3 col-sm-6 col-xs-12">
+                            <span><i class="fa fa-users fa-5x"
+                                    aria-hidden="true"></i></span>
+                            <p class="counter" data-target="1600">0</p>
+                            <p>People who visite our site</p>
+                        </div>
+                        <div class="static-info col-lg-3 col-sm-6 col-xs-12">
+                            <span><i class="fas fa-comment fa-5x"></i></span>
+                            <p class="counter" data-target="1200">0</p>
+                            <p>Clients</p>
+                        </div>
+                        <div class="static-info col-lg-3 col-sm-6 col-xs-12">
+                            <span><i class="fas fa-suitcase fa-5x"></i></span>
+                            <p class="counter" data-target="600">0</p>
+                            <p>Sales</p>
+                        </div>
+                        <div class="static-info col-lg-3 col-sm-6 col-xs-12">
+                            <span><i class="far fa-life-ring fa-5x"></i></span>
+                            <p class="counter" data-target="750">0</p>
+                            <p>Supporters</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <!--end statistice-->
+
+        <!--start project-->
+
+        <section class="project">
+            <h1>Our Project</h1>
+            <div class="container">
+                <div class="project-container">
+                    <div class="project-info">
+                        <img src="img/4.jpg" alt="">
+                        <h2>AI</h2>
+                        <h5>Welcome To Our AI Project</h5>
+                        <a href="project.html"
+                            class="btn-more">More</a>
+                    </div>
+                    <div class="project-info">
+                        <img src="img/5.jpg" alt="">
+                        <h2>STEAM</h2>
+                        <h5>Welcome To Our STEAM Project</h5>
+                        <a href="project.html"
+                            class="btn-more">More</a>
+                    </div>
+                    <div class="project-info">
+                        <img src="img/Mkgaa768x432.jpeg"
+                            alt="">
+                        <h2>STEAM</h2>
+                        <h5>Welcome To Our STEAM Project</h5>
+                        <a href="project.html"
+                            class="btn-more">More</a>
+                    </div>
+                    <div class="project-info">
+                        <img
+                            src="img/software_robots-top-526940848.jpg"
+                            alt="">
+                        <h2>STEAM</h2>
+                        <h5>Welcome To Our STEAM Project</h5>
+                        <a href="project.html"
+                            class="btn-more">More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--end project-->
+
+        <!--start contact-->
+
+        <section class="contact">
+            <div class="overlay"></div>
+            <div class="contact-container">
+                <h2>Address</h2>
+                <span><i class="fa fa-id-card fa-1x"
+                        style="margin-right:
+                        5px;"
+                        aria-hidden="true"></i>Saudi
+                    Arabia, Al Sharqiya</span>
+                <span><i class="fa fa-phone-square fa-1x"
+                        aria-hidden="true"></i>+966569123102</span>
+            </div>
+        </section>
+
+        <!--end contact-->
+
+
+        <!--start footer-->
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="icon-container">
+                        <a
+                            href="https://www.instagram.com/astaids.saudi/"><i
+                                class="fab fa-instagram
+                                fa-2x"></i></a>
+                        <a
+                            href="https://www.facebook.com/ast.aids.5"><i
+                                class="fab fa-facebook
+                                fa-2x"></i></a>
+                        <a
+                            href="https://twitter.com/ast_aids"><i
+                                class="fab
+                                fa-twitter fa-2x"></i></a>
+                    </div>
+                    <div class="footer-text">
+                        Copyrights Reserved &copy;<strong>E-SHIRE
+                        </strong>2020
+                    </div>
+                </div>
             </div>
 
-            <!--end footer-->
-            <script src="js/jquery.js"></script>
-            <script src="js/jqeury.js"></script>
-            <script src="js/script.js"></script>
-            <script src="js/slide.js"></script>
+        </div>
 
-        </body>
-    </html>
+        <!--end footer-->
+
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/jqeury.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/slide.js"></script>
+
+    </body>
+</html>

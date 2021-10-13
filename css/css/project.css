@@ -47,16 +47,16 @@
         color: #fff;
         background-color: #17a2b8; }
     .project .project-container .project-info:first-child {
-      transform: translateX(-150%);
+      transform: translateX(-10%);
       opacity: 0; }
     .project .project-container .project-info:nth-child(2) {
-      transform: translateX(150%);
+      transform: translateX(10%);
       opacity: 0; }
     .project .project-container .project-info:nth-child(3) {
-      transform: translateY(150%);
+      transform: translateY(10%);
       opacity: 0; }
     .project .project-container .project-info:nth-child(4) {
-      transform: translateY(-150%);
+      transform: translateY(-10%);
       opacity: 0; }
 
 /*# sourceMappingURL=project.css.map */

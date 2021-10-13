@@ -6,7 +6,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
-  min-height: 70vh;
+  min-height: 53vh;
   overflow: hidden; }
   .about h1 {
     text-align: center;
@@ -26,13 +26,14 @@
     .about .about-container .img-container {
       width: 100%;
       transform: translateX(-100%);
-      transition: all 1.15s ease; }
+      transition: all 1.15s ease;
+      text-align: center; }
       .about .about-container .img-container img {
-        width: 80%; }
+        width: 90%; }
     .about .about-container .about-text {
-      padding-left: 15px;
       transform: translateY(120%);
-      transition: all 1.2s ease; }
+      transition: all 1.2s ease;
+      max-width: 80%; }
       .about .about-container .about-text h4 {
         font-size: 25px;
         font-weight: bold;
@@ -42,5 +43,7 @@
       .about .about-container .about-text p {
         line-height: 1.8em;
         color: #d1d1d1; }
+      .about .about-container .about-text button {
+        margin-top: 50px; }
 
 /*# sourceMappingURL=about.css.map */

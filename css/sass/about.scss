@@ -6,7 +6,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
-    min-height: 70vh;
+    min-height: 53vh;
     overflow: hidden;
     h1{
         text-align: center;
@@ -28,14 +28,15 @@
             width: 100%;
             transform: translateX(-100%);
             transition: all 1.15s ease;
+            text-align: center;
             img{
-                width: 80%;
+                width: 90%;
             }
         }
         .about-text{
-            padding-left: 15px;
             transform: translateY(120%);
             transition: all 1.2s ease;
+            max-width: 80%;
             h4{
                 font-size: 25px;
                 font-weight: bold;
@@ -46,6 +47,9 @@
             p{
                 line-height: 1.8em;
                 color: rgb(209, 209, 209);
+            }
+            button{
+                margin-top: 50px
             }
         }
     }

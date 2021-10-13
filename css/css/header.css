@@ -1,7 +1,6 @@
 .main-header {
   background-position: center;
-  background-size: cover;
-  min-height: 90vh; }
+  background-size: cover; }
   .main-header .nav-container {
     display: flex;
     flex-direction: row;
@@ -15,7 +14,7 @@
       width: 60px;
       height: 60px;
       right: 10%;
-      top: 3%;
+      top: 35%;
       cursor: pointer;
       display: none; }
       .main-header .nav-container .menu-btn span {
@@ -79,8 +78,8 @@
         background-color: #fff;
         border-radius: 5px;
         display: block;
-        top: 7%;
-        right: 2%;
+        top: 76%;
+        right: 2.5%;
         list-style: none;
         width: 10%;
         padding: 3px;
